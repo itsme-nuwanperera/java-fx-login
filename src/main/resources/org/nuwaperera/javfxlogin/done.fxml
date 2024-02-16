@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" style="-fx-background-color: #0a0a0a;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.nuwaperera.javfxlogin.SceneController">
+   <children>
+      <ImageView fitHeight="163.0" fitWidth="200.0" layoutX="132.0" layoutY="157.0">
+         <image>
+            <Image url="@green-tick.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="greetLable" layoutX="135.0" layoutY="363.0" text="Login Success!" textFill="#fafafa">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

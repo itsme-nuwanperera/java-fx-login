@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" style="-fx-background-color: #0a0a0a;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.nuwaperera.javfxlogin.SceneController">
+   <children>
+      <Label layoutX="162.0" layoutY="40.0" text="Welcome!" textFill="#fafafa">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="225.0" text="Login Details" textFill="#fafafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="280.0" text="Username" textFill="#fafafa" />
+      <TextField layoutX="154.0" layoutY="270.0" prefHeight="36.0" prefWidth="247.0" promptText="Username" style="-fx-background-color: #171717;" />
+      <Label layoutX="87.0" layoutY="330.0" text="Password" textFill="#fafafa" />
+      <Label layoutX="39.0" layoutY="380.0" text="Confirm Password" textFill="#fafafa" />
+      <Button layoutX="334.0" layoutY="450.0" mnemonicParsing="false" onAction="#switchDone" prefHeight="36.0" prefWidth="67.0" style="-fx-background-color: #0ea5e9; -fx-background-radius: 6;" text="FInish" textFill="#fafafa" />
+      <PasswordField layoutX="154.0" layoutY="320.0" prefHeight="36.0" prefWidth="247.0" promptText="Password" style="-fx-background-color: #171717;" />
+      <PasswordField layoutX="154.0" layoutY="370.0" prefHeight="36.0" prefWidth="247.0" promptText="Confirm Password" style="-fx-background-color: #171717;" />
+   </children>
+</AnchorPane>

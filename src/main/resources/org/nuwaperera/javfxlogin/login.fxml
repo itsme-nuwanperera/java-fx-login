@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="480.0" style="-fx-background-color: #0a0a0a;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.nuwaperera.javfxlogin.SceneController">
+   <children>
+      <Label layoutX="128.0" layoutY="154.0" text="Welcome Back!" textFill="#fafafa">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernamefield" layoutX="124.0" layoutY="270.0" prefHeight="40.0" prefWidth="230.0" promptText="Enter Username" style="-fx-background-color: #171717; -fx-background-radius: 6; -fx-text-fill: #fafafa;" />
+      <PasswordField fx:id="passwordfield" layoutX="125.0" layoutY="322.0" prefHeight="40.0" prefWidth="230.0" promptText="Enter Password" style="-fx-background-color: #171717; -fx-background-radius: 6; -fx-text-fill: #fafafa;" />
+      <Button fx:id="loginbtn" layoutX="127.0" layoutY="423.0" mnemonicParsing="false" onAction="#switchDone" prefHeight="32.0" prefWidth="228.0" style="-fx-background-color: #0ea5e9; -fx-background-radius: 6;" text="Sign in" textAlignment="CENTER" textFill="#fafafa">
+         <font>
+            <Font name="Montserrat Thin" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="forgotpwbtn" layoutX="125.0" layoutY="376.0" mnemonicParsing="false" onAction="#forgotpwbtnclicked" style="-fx-background-color: none; -fx-font-weight: 700;" text="Forgot Password?" textFill="#fafafa" underline="true" />
+      <Label layoutX="180.0" layoutY="565.0" text="Didn't have an account?" textFill="#fafafa" />
+      <Button fx:id="signupbtn" layoutX="210.0" layoutY="581.0" mnemonicParsing="false" onAction="#switchSignUp" style="-fx-background-color: none; -fx-font-weight: 800;" text="Sign up" textFill="#fafafa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
